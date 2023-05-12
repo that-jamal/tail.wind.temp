@@ -5,20 +5,69 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>app name</title>
-  <script type="module" crossorigin src="/vite.tailwind.template/assets/index-5e4faa13.js"></script>
-  <link rel="stylesheet" href="/vite.tailwind.template/assets/index-da64ecfc.css">
+  <title>Tailwind example</title>
+  <link rel="stylesheet" href="/tail.wind.temp/assets/index-b5d84ca2.css">
 </head>
 
-<body>
-  <header class="bg-red-600  text-white text-4xl flex text-center">
-    <a href="/">.Home .</a>
-    <a href="products.html">Products .</a>
-    <a href="about.html">About us .</a>
-    <a href="contact.html">contact us</a>
+
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="bg-gray-800 py-4">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <a href="#" class=" fa-brands fa-watchman-monitoring text-white font-semibold text-4xl">Logo</a>
+        <ul class="flex space-x-4">
+          <li><a href="#" class="text-white hover:text-gray-300">Home</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">About</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">Services</a></li>
+          <li><a href="#" class="text-white hover:text-gray-300">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="pb-32 pt-9 bg-gray-200">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl text-gray-800 text-center ">Hero</h1>
+    </div>
   </header>
-  <h1 class="text-4xl"> home</h1>
-  
+
+  <!-- Info Box Section -->
+  <section class="py-8">
+    <div class="container mx-auto px-4 flex items-center">
+      <img src="https://www.seiu1000.org/sites/main/files/main-images/camera_lense_0.jpeg"
+        class="w-1/5 h-80 bg-blue-500 rounded-full">
+      <div class="bg-white p-8 rounded shadow-md ml-4">
+        <h2 class="text-2xl text-gray-800">Info Box</h2>
+        <p class="text-gray-600 mt-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, ratione!
+          Aspernatur repellendus aliquid, optio ducimus voluptates qui architecto perferendis ipsum, deleniti incidunt
+          cupiditate modi dolorum aperiam, eos tenetur. Ad voluptates sit quo earum corrupti, est harum provident. Quam
+          tempore reprehenderit ut reiciendis repellat, laudantium est, perspiciatis fuga aut illo, quasi quod atque
+          minus. Quae dolorum dolor exercitationem aliquid quibusdam, culpa aut enim, quisquam incidunt ducimus vel
+          facere a. Perspiciatis consectetur, tempora deleniti cum nulla accusamus quos libero dolores fuga animi, non
+          reprehenderit id, ea sunt doloribus rem iste repellat nemo minima! Voluptas alias consectetur error, ad
+          laboriosam enim autem. Ratione.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 py-4 bottom-0">
+    <div class="container mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <ul class="flex space-x-4">
+          <li><i class="fab fa-facebook fa-lg text-white hover:text-gray-300"></i></li>
+          <li><i class="fab fa-twitter fa-lg text-white hover:text-gray-300"></i></li>
+          <li><i class="fab fa-instagram fa-lg text-white hover:text-gray-300"></i></li>
+        </ul>
+        <p class="text-gray-300">© 2023 Your Company. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
 </body>
+
 
 </html>
